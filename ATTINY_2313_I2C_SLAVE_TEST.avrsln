@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "ATTINY_2313_I2C_SLAVE_TEST", "ATTINY_2313_I2C_SLAVE_TEST\ATTINY_2313_I2C_SLAVE_TEST.avrgccproj", "{420B8F0D-2CC3-4724-A9D5-73DA44B22C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC35C171-55BE-491E-9089-A5A20A740AFB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\lib\i2s-slave\usiTwiSlave.c = ..\..\lib\i2s-slave\usiTwiSlave.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{420B8F0D-2CC3-4724-A9D5-73DA44B22C38}.Debug|AVR.ActiveCfg = Debug|AVR
+		{420B8F0D-2CC3-4724-A9D5-73DA44B22C38}.Debug|AVR.Build.0 = Debug|AVR
+		{420B8F0D-2CC3-4724-A9D5-73DA44B22C38}.Release|AVR.ActiveCfg = Release|AVR
+		{420B8F0D-2CC3-4724-A9D5-73DA44B22C38}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
